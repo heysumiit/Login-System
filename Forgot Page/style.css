@@ -1,0 +1,54 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container{
+    color:rgb(0, 0, 0);
+background-color:rgb(255, 255, 255);
+padding: 20px;
+border:0px solid #fff;
+box-shadow:0 0 10px black;
+width: 280px;
+border-radius: 7px;
+height: 380px;
+font-weight: 900;
+text-align: center;
+}
+.login-container h2{
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+}
+.login-container input{
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #846464;
+    border-radius: 5px;
+}
+.login-container button{
+    width: 100%;
+    margin-top: 9px;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border 0.3;
+}
+.login-container button:hover{
+background: #0056b3;
+}
+.login-container a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+p{
+   font-weight: 500; 
+}
